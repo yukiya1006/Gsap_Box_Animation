@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@100;300;500;700&display=swap');
+
+*{
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container h2 {
+  font-size: 6rem;
+  z-index: 2;
+  color: #fff;
+  /* text-shadow: 15px 15px 100px; */
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -70px;
+  position: relative;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  box-shadow: 15px 15px 50px;
+  margin: 0 30px 30px 30px;
+}
+
